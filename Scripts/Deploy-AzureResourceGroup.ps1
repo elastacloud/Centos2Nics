@@ -4,13 +4,13 @@
 
 Param(
     [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
-    [string] $ResourceGroupName = '2NICs',
+    [string] $ResourceGroupName = 'Centos1',
     [switch] $UploadArtifacts,
     [string] $StorageAccountName,
     [string] $StorageAccountResourceGroupName, 
     [string] $StorageContainerName = $ResourceGroupName.ToLowerInvariant() + '-stageartifacts',
-    [string] $TemplateFile = '..\Templates\WindowsVirtualMachine.json',
-    [string] $TemplateParametersFile = '..\Templates\WindowsVirtualMachine.parameters.json',
+    [string] $TemplateFile = '..\Templates\LinuxVirtualMachine.json',
+    [string] $TemplateParametersFile = '..\Templates\LinuxVirtualMachine.parameters.json',
     [string] $ArtifactStagingDirectory = '..\bin\Debug\staging',
     [string] $AzCopyPath = '..\Tools\AzCopy.exe',
     [string] $DSCSourceFolder = '..\DSC'

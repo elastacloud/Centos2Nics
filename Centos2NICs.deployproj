@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>441b9530-4246-4c4e-b709-f14cfa4ff081</ProjectGuid>
+    <ProjectGuid>62ffd576-6454-4faa-a77a-74953b95c088</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFrameworkIdentifier>Deployment</TargetFrameworkIdentifier>
@@ -34,8 +34,8 @@
       <Visible>False</Visible>
     </None>
     <Content Include="Scripts\Deploy-AzureResourceGroup.ps1" />
-    <Content Include="Templates\WindowsVirtualMachine.json" />
-    <Content Include="Templates\WindowsVirtualMachine.parameters.json" />
+    <Content Include="Templates\LinuxVirtualMachine.json" />
+    <Content Include="Templates\LinuxVirtualMachine.parameters.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Tools\AzCopy.exe" />
