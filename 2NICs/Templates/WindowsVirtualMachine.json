@@ -43,7 +43,8 @@
     "nicName2": "Nic2",
     "addressPrefix": "10.1.0.0/16",
     "subnetName1": "Subnet1",
-    "subnetName2": "Subnet2",
+    "subnetName2": "Subnet2", //
+
     "subnetPrefix1": "10.1.11.0/24",
     "subnetPrefix2": "10.1.22.0/24",
     "vhdStorageType": "Standard_LRS",
@@ -53,7 +54,7 @@
     "vmName": "MyWindowsVM",
     "vmSize": "Standard_A3",
     "virtualNetworkName1": "MyVNET1",
-   // "virtualNetworkName2": "MyVNET2",
+    // "virtualNetworkName2": "MyVNET2",
     "vnetId1": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName1'))]",
     //"vnetId2": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName2'))]",
     "subnetRef1": "[concat(variables('vnetId1'), '/subnets/', variables('subnetName1'))]",
